@@ -1,0 +1,96 @@
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.navbar-link {
+  color: var(--gray-700);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: var(--primary);
+}
+
+.navbar-user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-name {
+  color: var(--gray-700);
+  font-weight: 500;
+}
+
+.btn-logout {
+  background-color: var(--danger);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-logout:hover {
+  background-color: #dc2626;
+}
+
+@media (max-width: 768px) {
+  .navbar-menu {
+    gap: 15px;
+  }
+
+  .navbar-user {
+    gap: 10px;
+  }
+
+  .user-name {
+    display: none;
+  }
+}
+
+.navbar-link.active {
+  color: #6366f1;
+  background: #eef2ff;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

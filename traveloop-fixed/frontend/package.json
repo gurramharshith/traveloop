@@ -1,0 +1,26 @@
+{
+  "name": "traveloop-frontend",
+  "version": "1.0.0",
+  "description": "Traveloop travel planning application frontend",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0",
+    "axios": "^1.5.0",
+    "zustand": "^4.4.0",
+    "react-datepicker": "^4.16.0",
+    "react-icons": "^4.12.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.5.0",
+    "eslint": "^8.50.0"
+  }
+}

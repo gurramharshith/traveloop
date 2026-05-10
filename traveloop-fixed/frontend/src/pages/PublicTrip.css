@@ -1,0 +1,35 @@
+.public-trip-container { max-width: 800px; margin: 0 auto; padding: 32px 24px; }
+.public-trip-header { background: linear-gradient(135deg, #4f46e5, #7c3aed); color: white; border-radius: 16px; padding: 32px; margin-bottom: 32px; display: flex; flex-wrap: wrap; gap: 24px; justify-content: space-between; }
+.public-trip-title h1 { margin: 0 0 8px; font-size: 28px; }
+.public-trip-title p { margin: 0 0 16px; opacity: 0.85; }
+.trip-meta-row { display: flex; gap: 16px; flex-wrap: wrap; font-size: 14px; opacity: 0.9; }
+.share-section { min-width: 220px; }
+.share-section h3 { margin: 0 0 12px; font-size: 16px; }
+.share-buttons { display: flex; flex-direction: column; gap: 8px; }
+.share-twitter { background: #1da1f2; color: white; border: none; }
+.share-whatsapp { background: #25d366; color: white; border: none; }
+.share-facebook { background: #4267b2; color: white; border: none; }
+.public-itinerary { margin-bottom: 32px; }
+.public-itinerary h2 { margin-bottom: 20px; }
+.public-stops-list { display: flex; flex-direction: column; gap: 20px; }
+.public-stop-card { display: flex; gap: 16px; background: white; border: 1px solid #e5e7eb; border-radius: 14px; padding: 20px; }
+.stop-number-badge { width: 36px; height: 36px; border-radius: 50%; background: #4f46e5; color: white; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0; }
+.public-stop-content { flex: 1; }
+.public-stop-content h3 { margin: 0 0 6px; font-size: 18px; }
+.stop-dates { color: #666; font-size: 14px; margin-bottom: 14px; }
+.public-activities h4 { margin: 0 0 12px; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; color: #9ca3af; }
+.public-activity-item { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; padding: 8px 0; border-bottom: 1px solid #f1f5f9; }
+.public-activity-item:last-child { border-bottom: none; }
+.act-category-badge { font-size: 11px; background: #eef2ff; color: #4338ca; padding: 2px 8px; border-radius: 20px; text-transform: capitalize; }
+.act-name { font-weight: 500; font-size: 15px; }
+.act-meta { font-size: 13px; color: #666; }
+.act-description { width: 100%; font-size: 13px; color: #666; margin: 4px 0 0; }
+.public-budget-summary { background: #f8faff; border: 1px solid #e0e7ff; border-radius: 12px; padding: 20px; margin-bottom: 24px; }
+.public-budget-summary h2 { margin: 0 0 8px; }
+.budget-total { font-size: 20px; margin: 0; color: #4f46e5; }
+.public-footer { text-align: center; color: #9ca3af; font-size: 14px; padding-top: 16px; border-top: 1px solid #e5e7eb; }
+.public-error { text-align: center; padding: 80px 24px; }
+.btn { padding: 10px 16px; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 500; border: none; }
+.btn-primary { background: rgba(255,255,255,0.2); color: white; border: 2px solid white; }
+.btn-primary:hover { background: rgba(255,255,255,0.3); }
+.loading { text-align: center; padding: 60px; color: #666; }
