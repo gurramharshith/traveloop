@@ -23,11 +23,17 @@ app.use(cors({ origin: process.env.CORS_ORIGIN || '*' }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Database connection
+// ================= DATABASE CONNECTION DISABLED =================
+// Commented temporarily for deployment without MongoDB
+
+/*
 mongoose
   .connect(process.env.MONGODB_URI)
   .then(() => console.log('MongoDB connected'))
   .catch((err) => console.log('MongoDB connection error:', err));
+*/
+
+// ===============================================================
 
 // Routes
 app.use('/api/auth', authRoutes);
@@ -43,6 +49,11 @@ app.use('/api/admin', adminRoutes);
 // Health check
 app.get('/health', (req, res) => {
   res.json({ status: 'OK' });
+});
+
+// Default route
+app.get('/', (req, res) => {
+  res.send('Traveloop Backend Running Successfully');
 });
 
 // Error handling middleware
